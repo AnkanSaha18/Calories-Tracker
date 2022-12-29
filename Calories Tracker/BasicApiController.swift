@@ -12,14 +12,12 @@ class BasicApiController: UIViewController {
     
     
     @IBOutlet weak var foodName: UILabel!
-    
     @IBOutlet weak var calories: UILabel!
-    
     @IBOutlet weak var carbs: UILabel!
-    
     @IBOutlet weak var protin: UILabel!
     @IBOutlet weak var fat: UILabel!
     @IBOutlet weak var foodType: UILabel!
+    
     
     public var foodNameNew: String = ""
     public var caloriesNew: String = ""

@@ -13,11 +13,18 @@ class test: UIViewController {
     
     var foodCome = ""
     
+    @IBOutlet weak var passlog: UITextField!
+    
+
+    
     override func viewDidLoad() {
+
         super.viewDidLoad()
 
-        food.text = foodCome
-        
+      //  food.text = foodCome
+        passlog.isSecureTextEntry = true
+    
+       
         // Do any additional setup after loading the view.
     }
     

@@ -69,6 +69,11 @@ class MealDetails: UIViewController {
         protin.text = protinCame
         fat.text = fatCame
         time.text = timeCame
+        let carbsInt = Int(crabsCame) ?? 0
+        let protinInt = Int(protinCame) ?? 0
+        let fatInt = Int(fatCame) ?? 0
+        let totalInt:String = String(carbsInt+protinInt+fatInt)
+        kcal.text = totalInt
         
         print(mealNameCame)
         print(crabsCame)
